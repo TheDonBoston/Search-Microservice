@@ -1,0 +1,23 @@
+{
+  "name": "search-microservice",
+  "version": "1.0.0",
+  "description": "Smart Suggestions Microservice that returns context-aware suggestions based on category, mood, or goals via a REST API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDonBoston/Smart-Suggestion-Microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDonBoston/Smart-Suggestion-Microservice/issues"
+  },
+  "homepage": "https://github.com/TheDonBoston/Smart-Suggestion-Microservice#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
