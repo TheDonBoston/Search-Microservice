@@ -334,22 +334,23 @@ This microservice can be used for:
 
 ---
 
-# UML Architecture
+## UML Architecture
 
 ```mermaid
 flowchart LR
-    A[Client Program] -->|POST /search| B[server.mjs]
 
-    B --> C[validateInput()]
-    B --> D[searchForItem()]
+A[Client Program] --> B[server.mjs]
 
-    D --> E[Object.keys(items)]
-    E --> F[Filter titles containing keyword]
+B --> C[validateInput]
+B --> D[searchForItem]
 
-    F --> G[Matched Titles]
+D --> E[Extract Item Titles]
+E --> F[Filter Titles by Keyword]
 
-    G --> H[Map titles to result objects]
-    H --> I[JSON Response Returned]
+F --> G[Matched Titles]
+
+G --> H[Map Titles to Result Objects]
+H --> I[Return JSON Response]
 ```
 
 ---
