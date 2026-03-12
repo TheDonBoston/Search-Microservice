@@ -357,5 +357,4 @@ H --> I[Return JSON Response]
 
 # Author
 
-Search Microservice Implementation  
-CS 361 Microservices Project
+Spenser Brandt & Isabella Bakker
